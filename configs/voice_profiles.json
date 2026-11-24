@@ -1,0 +1,458 @@
+[
+  {
+    "id": "M01",
+    "name": "Alexander",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Deep, sophisticated, authoritative, intellectual and composed.",
+    "tags": [
+      "authoritative",
+      "intellectual",
+      "deep",
+      "composed"
+    ],
+    "pitch_offset": -2.0,
+    "speed_factor": 0.95,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_adam",
+    "edge_voice_id": "en-US-GuyNeural"
+  },
+  {
+    "id": "M02",
+    "name": "James",
+    "gender": "male",
+    "accent": "British",
+    "language": "en-GB",
+    "description": "Warm British accent, articulate, refined and analytical.",
+    "tags": [
+      "british",
+      "warm",
+      "analytical",
+      "refined"
+    ],
+    "pitch_offset": 0.0,
+    "speed_factor": 1.0,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "bm_george",
+    "edge_voice_id": "en-GB-RyanNeural"
+  },
+  {
+    "id": "M03",
+    "name": "Ethan",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Modern American technology podcast host, confident and energetic.",
+    "tags": [
+      "energetic",
+      "confident",
+      "tech",
+      "modern"
+    ],
+    "pitch_offset": 1.0,
+    "speed_factor": 1.05,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_eric",
+    "edge_voice_id": "en-US-BrianNeural"
+  },
+  {
+    "id": "M04",
+    "name": "Marcus",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Rich baritone, cinematic, serious and philosophical.",
+    "tags": [
+      "baritone",
+      "cinematic",
+      "serious",
+      "philosophical"
+    ],
+    "pitch_offset": -3.0,
+    "speed_factor": 0.92,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_michael",
+    "edge_voice_id": "en-US-ChristopherNeural"
+  },
+  {
+    "id": "M05",
+    "name": "Oliver",
+    "gender": "male",
+    "accent": "British",
+    "language": "en-GB",
+    "description": "Curious, friendly, intelligent and conversational.",
+    "tags": [
+      "curious",
+      "friendly",
+      "british",
+      "conversational"
+    ],
+    "pitch_offset": 1.0,
+    "speed_factor": 1.02,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "bm_lewis",
+    "edge_voice_id": "en-GB-ThomasNeural"
+  },
+  {
+    "id": "M06",
+    "name": "Daniel",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Calm documentary narrator with excellent pronunciation.",
+    "tags": [
+      "documentary",
+      "calm",
+      "narrator",
+      "precise"
+    ],
+    "pitch_offset": -1.0,
+    "speed_factor": 0.96,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_fenrir",
+    "edge_voice_id": "en-US-RogerNeural"
+  },
+  {
+    "id": "M07",
+    "name": "Adrian",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Professional business and financial analysis presenter.",
+    "tags": [
+      "business",
+      "financial",
+      "presenter",
+      "sharp"
+    ],
+    "pitch_offset": 0.0,
+    "speed_factor": 1.0,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_liam",
+    "edge_voice_id": "en-US-AndrewNeural"
+  },
+  {
+    "id": "M08",
+    "name": "Victor",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Powerful, mature, strategic and authoritative.",
+    "tags": [
+      "powerful",
+      "mature",
+      "strategic",
+      "executive"
+    ],
+    "pitch_offset": -2.5,
+    "speed_factor": 0.94,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_onyx",
+    "edge_voice_id": "en-US-EricNeural"
+  },
+  {
+    "id": "M09",
+    "name": "Noah",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Youthful, approachable and naturally expressive.",
+    "tags": [
+      "youthful",
+      "approachable",
+      "expressive",
+      "friendly"
+    ],
+    "pitch_offset": 1.5,
+    "speed_factor": 1.03,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_puck",
+    "edge_voice_id": "en-US-SteffanNeural"
+  },
+  {
+    "id": "M10",
+    "name": "Arjun",
+    "gender": "male",
+    "accent": "Indian English",
+    "language": "en-IN",
+    "description": "Clear Indian English, articulate, analytical and professional.",
+    "tags": [
+      "indian-english",
+      "analytical",
+      "professional",
+      "articulate"
+    ],
+    "pitch_offset": 0.0,
+    "speed_factor": 1.0,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_adam",
+    "edge_voice_id": "en-IN-PrabhatNeural"
+  },
+  {
+    "id": "M11",
+    "name": "Sebastian",
+    "gender": "male",
+    "accent": "British",
+    "language": "en-GB",
+    "description": "Refined, thoughtful and suitable for history and psychology.",
+    "tags": [
+      "history",
+      "psychology",
+      "thoughtful",
+      "refined"
+    ],
+    "pitch_offset": -1.5,
+    "speed_factor": 0.93,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "bm_george",
+    "edge_voice_id": "en-GB-RyanNeural"
+  },
+  {
+    "id": "M12",
+    "name": "Gabriel",
+    "gender": "male",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Relaxed, reflective and emotionally engaging storyteller.",
+    "tags": [
+      "storyteller",
+      "reflective",
+      "relaxed",
+      "engaging"
+    ],
+    "pitch_offset": -0.5,
+    "speed_factor": 0.97,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "am_michael",
+    "edge_voice_id": "en-US-GuyNeural"
+  },
+  {
+    "id": "F01",
+    "name": "Sophia",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Intelligent, elegant, confident and articulate.",
+    "tags": [
+      "intelligent",
+      "elegant",
+      "confident",
+      "articulate"
+    ],
+    "pitch_offset": 0.0,
+    "speed_factor": 1.0,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_bella",
+    "edge_voice_id": "en-US-JennyNeural"
+  },
+  {
+    "id": "F02",
+    "name": "Olivia",
+    "gender": "female",
+    "accent": "British",
+    "language": "en-GB",
+    "description": "Warm, refined British conversational voice.",
+    "tags": [
+      "british",
+      "warm",
+      "conversational",
+      "refined"
+    ],
+    "pitch_offset": 0.5,
+    "speed_factor": 0.98,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "bf_emma",
+    "edge_voice_id": "en-GB-SoniaNeural"
+  },
+  {
+    "id": "F03",
+    "name": "Emma",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Energetic American podcast presenter.",
+    "tags": [
+      "energetic",
+      "presenter",
+      "upbeat",
+      "modern"
+    ],
+    "pitch_offset": 1.0,
+    "speed_factor": 1.04,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_sarah",
+    "edge_voice_id": "en-US-AriaNeural"
+  },
+  {
+    "id": "F04",
+    "name": "Isabella",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Sophisticated, mature and documentary-oriented.",
+    "tags": [
+      "documentary",
+      "sophisticated",
+      "mature",
+      "poised"
+    ],
+    "pitch_offset": -1.0,
+    "speed_factor": 0.95,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_nicole",
+    "edge_voice_id": "en-US-MichelleNeural"
+  },
+  {
+    "id": "F05",
+    "name": "Ava",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Curious, friendly and naturally expressive.",
+    "tags": [
+      "curious",
+      "friendly",
+      "expressive",
+      "approachable"
+    ],
+    "pitch_offset": 1.2,
+    "speed_factor": 1.02,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_sky",
+    "edge_voice_id": "en-US-AvaNeural"
+  },
+  {
+    "id": "F06",
+    "name": "Victoria",
+    "gender": "female",
+    "accent": "British",
+    "language": "en-GB",
+    "description": "Authoritative, professional and analytical.",
+    "tags": [
+      "authoritative",
+      "professional",
+      "analytical",
+      "british"
+    ],
+    "pitch_offset": -0.5,
+    "speed_factor": 0.97,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "bf_isabella",
+    "edge_voice_id": "en-GB-LibbyNeural"
+  },
+  {
+    "id": "F07",
+    "name": "Amelia",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Calm, clear and suitable for educational explanations.",
+    "tags": [
+      "educational",
+      "calm",
+      "clear",
+      "pedagogical"
+    ],
+    "pitch_offset": 0.0,
+    "speed_factor": 0.96,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_alloy",
+    "edge_voice_id": "en-US-AnaNeural"
+  },
+  {
+    "id": "F08",
+    "name": "Elena",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Thoughtful, philosophical and emotionally expressive.",
+    "tags": [
+      "philosophical",
+      "thoughtful",
+      "expressive",
+      "nuanced"
+    ],
+    "pitch_offset": -0.8,
+    "speed_factor": 0.94,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_heart",
+    "edge_voice_id": "en-US-EmmaNeural"
+  },
+  {
+    "id": "F09",
+    "name": "Maya",
+    "gender": "female",
+    "accent": "Indian English",
+    "language": "en-IN",
+    "description": "Professional Indian English with natural articulation.",
+    "tags": [
+      "indian-english",
+      "professional",
+      "articulate",
+      "tech"
+    ],
+    "pitch_offset": 0.0,
+    "speed_factor": 1.0,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_bella",
+    "edge_voice_id": "en-IN-NeerjaNeural"
+  },
+  {
+    "id": "F10",
+    "name": "Charlotte",
+    "gender": "female",
+    "accent": "British",
+    "language": "en-GB",
+    "description": "Elegant, composed and suitable for elite business discussions.",
+    "tags": [
+      "business",
+      "elite",
+      "elegant",
+      "composed"
+    ],
+    "pitch_offset": -0.2,
+    "speed_factor": 0.98,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "bf_alice",
+    "edge_voice_id": "en-GB-MaisieNeural"
+  },
+  {
+    "id": "F11",
+    "name": "Aurora",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Cinematic, immersive and excellent for storytelling.",
+    "tags": [
+      "cinematic",
+      "immersive",
+      "storytelling",
+      "rich"
+    ],
+    "pitch_offset": -1.2,
+    "speed_factor": 0.93,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_jessica",
+    "edge_voice_id": "en-US-AriaNeural"
+  },
+  {
+    "id": "F12",
+    "name": "Claire",
+    "gender": "female",
+    "accent": "American",
+    "language": "en-US",
+    "description": "Natural, intelligent and suitable for technical conversations.",
+    "tags": [
+      "intelligent",
+      "technical",
+      "conversational",
+      "natural"
+    ],
+    "pitch_offset": 0.2,
+    "speed_factor": 1.01,
+    "preferred_provider": "kokoro",
+    "provider_voice_id": "af_kore",
+    "edge_voice_id": "en-US-AvaNeural"
+  }
+]

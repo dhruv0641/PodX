@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-24T19:25:00Z",
+  "system": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "os_name": "Windows",
+    "os_version": "10.0.26200",
+    "python_version": "3.11.9"
+  },
+  "cpu": {
+    "model": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "architecture": "AMD64"
+  },
+  "ram": {
+    "total_gb": 15.69,
+    "free_gb": 1.89,
+    "sufficient_for_local_tts": true
+  },
+  "gpu": {
+    "available": true,
+    "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "vram_total_mb": 4096.0,
+    "vram_free_mb": 3840.0,
+    "driver_version": "581.95",
+    "cuda_version": "581.95",
+    "backend": "CUDA"
+  },
+  "storage": {
+    "current_drive_free_gb": 231.31,
+    "c_drive_free_gb": 261.53
+  },
+  "capabilities": {
+    "cuda_accelerated": true,
+    "recommended_primary_tts": "kokoro",
+    "recommended_advanced_tts": "qwen3-tts-0.6b",
+    "fast_preview_provider": "kokoro",
+    "recommended_precision": "fp16",
+    "max_safe_vram_usage_mb": 3481,
+    "batch_chunk_size": 400,
+    "can_train_lora": true,
+    "safe_concurrent_models": 1
+  }
+}

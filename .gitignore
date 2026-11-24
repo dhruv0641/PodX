@@ -1,0 +1,57 @@
+# Environments and Virtualenvs
+.venv/
+env/
+venv/
+ENV/
+*.env
+!.env.example
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# Model Checkpoints & Heavy Weights
+models/*
+!models/.gitkeep
+
+# Local Storage & Audio Generation Artifacts
+storage/audio/*
+!storage/audio/.gitkeep
+storage/previews/*
+!storage/previews/.gitkeep
+storage/datasets/*
+!storage/datasets/.gitkeep
+storage/exports/*
+!storage/exports/.gitkeep
+storage/checkpoints/*
+!storage/checkpoints/.gitkeep
+storage/*.db
+storage/*.db-wal
+storage/*.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/

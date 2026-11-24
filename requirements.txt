@@ -1,0 +1,26 @@
+# Backend and API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+sqlalchemy>=2.0.35
+aiosqlite>=0.20.0
+python-multipart>=0.0.12
+httpx>=0.27.2
+
+# Audio Processing & Signal Engineering
+numpy>=1.26.0,<2.1.0
+scipy>=1.14.0
+soundfile>=0.12.1
+pyloudnorm>=0.1.1
+
+# Speech Synthesis & Machine Learning
+torch>=2.2.0
+torchaudio>=2.2.0
+transformers>=4.45.0
+huggingface-hub>=0.25.0
+kokoro>=0.8.4
+
+# Text & Utilities
+psutil>=6.0.0
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
