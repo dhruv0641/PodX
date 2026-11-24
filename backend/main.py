@@ -3,7 +3,12 @@ PodX Main Application Entrypoint
 FastAPI server, CORS middleware, API routers, static audio assets, and SPA frontend serving.
 """
 import os
+import sys
 from pathlib import Path
+
+# Ensure project root is always on sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
