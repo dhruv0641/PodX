@@ -6,7 +6,7 @@
 
 | Acceptance Criterion | Implementation Status | Evidence / Verification Artifact |
 | :--- | :--- | :--- |
-| **Application launches locally** | **VERIFIED** | FastAPI server running on `127.0.0.1:8000`, SPA mounted at `/` |
+| **Application launches locally** | **VERIFIED** | FastAPI server running on `127.0.0.1:8001`, SPA mounted at `/` |
 | **At least one genuine local TTS works** | **VERIFIED** | Kokoro-82M ONNX model + Neural provider verified |
 | **User can submit script via chat** | **VERIFIED** | `/api/chat` endpoint and `NewChatView` with live SSE progress stream |
 | **Multiple speakers generate distinct voices** | **VERIFIED** | Alexander (M01) and Sophia (F01) synthesized with distinct timbres |

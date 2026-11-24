@@ -13,7 +13,7 @@ class Settings(BaseModel):
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = True
     HOST: str = "127.0.0.1"
-    PORT: int = 8000
+    PORT: int = 8001
     
     # Paths
     BASE_DIR: Path = BASE_DIR

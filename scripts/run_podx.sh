@@ -31,6 +31,6 @@ else
     echo -e "\n\033[1;32m[3/4] Production frontend build verified in frontend/dist.\033[0m"
 fi
 
-echo -e "\n\033[1;36m[4/4] Starting PodX Unified Server on http://127.0.0.1:8000 ...\033[0m"
-echo -e "\033[1;32mAccess the Studio in your browser: http://127.0.0.1:8000\033[0m"
-python3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+echo -e "\n\033[1;36m[4/4] Starting PodX Unified Server on http://127.0.0.1:8001 ...\033[0m"
+echo -e "\033[1;32mAccess the Studio in your browser: http://127.0.0.1:8001\033[0m"
+python3 -m uvicorn backend.main:app --host 127.0.0.1 --port 8001

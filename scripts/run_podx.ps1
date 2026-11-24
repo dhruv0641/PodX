@@ -32,6 +32,6 @@ if (-not (Test-Path "frontend\dist\index.html")) {
 }
 
 # 4. Start Server
-Write-Host "`n[4/4] Starting PodX Unified Server on http://127.0.0.1:8000 ..." -ForegroundColor Cyan
-Write-Host "Access the Studio in your browser: http://127.0.0.1:8000" -ForegroundColor Green
-python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
+Write-Host "`n[4/4] Starting PodX Unified Server on http://127.0.0.1:8001 ..." -ForegroundColor Cyan
+Write-Host "Access the Studio in your browser: http://127.0.0.1:8001" -ForegroundColor Green
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8001

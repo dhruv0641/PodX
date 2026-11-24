@@ -69,4 +69,4 @@ if dist_dir.exists():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("backend.main:app", host="127.0.0.1", port=8000, reload=False)
+    uvicorn.run("backend.main:app", host="127.0.0.1", port=8001, reload=False)

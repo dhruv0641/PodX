@@ -6,7 +6,7 @@ This guide provides end-to-end instructions for operating **PodX — Elite Knowl
 
 ## 1. Getting Started
 
-When you launch PodX and open `http://127.0.0.1:8000`, the **Dashboard** displays live system health, available hardware resources (CPU, GPU VRAM, RAM, and disk space), recent episodes, and quick-action shortcuts.
+When you launch PodX and open `http://127.0.0.1:8001`, the **Dashboard** displays live system health, available hardware resources (CPU, GPU VRAM, RAM, and disk space), recent episodes, and quick-action shortcuts.
 
 ---
 
