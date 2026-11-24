@@ -182,30 +182,46 @@ class ScriptParser:
         pace = 1.0
         pitch = 0.0
 
-        if "thoughtful" in d_lower or "reflective" in d_lower or "calm" in d_lower:
-            emotion = "thoughtful"
-            pace = 0.94
-            pitch = -0.5
-        elif "curious" in d_lower or "analytical" in d_lower:
-            emotion = "analytical"
-            pace = 1.02
-            pitch = 0.5
-        elif "confident" in d_lower or "authoritative" in d_lower:
-            emotion = "confident"
-            pace = 0.98
+        if any(w in d_lower for w in ["whisper", "soft", "intimate"]):
+            emotion = "whisper"
+            pace = 0.88
             pitch = -1.0
-        elif "energetic" in d_lower or "excited" in d_lower:
+        elif any(w in d_lower for w in ["laugh", "chuckle", "humorous", "sarcastic", "playful"]):
+            emotion = "playful"
+            pace = 1.06
+            pitch = 0.8
+        elif any(w in d_lower for w in ["urgent", "dramatic", "intense"]):
+            emotion = "intense"
+            pace = 1.12
+            pitch = 1.2
+        elif any(w in d_lower for w in ["sad", "somber", "melancholy", "grave"]):
+            emotion = "somber"
+            pace = 0.88
+            pitch = -1.5
+        elif any(w in d_lower for w in ["thoughtful", "reflective", "calm", "philosophical", "contemplative"]):
+            emotion = "thoughtful"
+            pace = 0.93
+            pitch = -0.6
+        elif any(w in d_lower for w in ["curious", "analytical", "inquisitive"]):
+            emotion = "analytical"
+            pace = 1.03
+            pitch = 0.6
+        elif any(w in d_lower for w in ["confident", "authoritative", "measured", "decisive"]):
+            emotion = "confident"
+            pace = 0.97
+            pitch = -1.0
+        elif any(w in d_lower for w in ["energetic", "excited", "passionate", "inspirational", "uplifting"]):
             emotion = "excited"
             pace = 1.08
             pitch = 1.0
-        elif "serious" in d_lower or "grave" in d_lower:
+        elif any(w in d_lower for w in ["serious", "sober", "firm"]):
             emotion = "serious"
             pace = 0.92
-            pitch = -1.5
-        elif "warm" in d_lower or "friendly" in d_lower:
+            pitch = -1.2
+        elif any(w in d_lower for w in ["warm", "friendly", "empathetic", "kind"]):
             emotion = "friendly"
-            pace = 1.0
-            pitch = 0.0
+            pace = 0.98
+            pitch = 0.2
 
         return emotion, pace, pitch
 
