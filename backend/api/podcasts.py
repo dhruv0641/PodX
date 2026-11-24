@@ -139,6 +139,24 @@ def stream_master_audio(episode_id: str):
     media_type = "audio/mpeg" if audio_file.endswith(".mp3") else "audio/wav"
     return FileResponse(audio_file, media_type=media_type)
 
+@router.get("/{episode_id}/segments/{segment_id}/audio")
+def stream_segment_audio(episode_id: str, segment_id: str):
+    """
+    Streams individual sentence audio for instant in-studio auditioning.
+    """
+    ep = db_manager.get_episode(episode_id)
+    if not ep:
+        raise HTTPException(status_code=404, detail="Episode not found")
+
+    for seg in ep.get("segments", []):
+        if seg["id"] == segment_id:
+            audio_path = seg.get("audio_path")
+            if audio_path and os.path.exists(audio_path):
+                return FileResponse(audio_path, media_type="audio/wav")
+            break
+
+    raise HTTPException(status_code=404, detail="Segment audio file not found on disk")
+
 @router.get("/{episode_id}/download/{fmt}")
 def download_artifact(episode_id: str, fmt: str):
     ep = db_manager.get_episode(episode_id)

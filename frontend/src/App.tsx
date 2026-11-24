@@ -20,6 +20,19 @@ export default function App() {
   const [currentTab, setCurrentTab] = useState<ViewTab>('dashboard');
   const [activeEpisode, setActiveEpisode] = useState<PodcastEpisode | null>(null);
 
+  // Auto-load latest episode on initial startup
+  React.useEffect(() => {
+    fetch('/api/podcasts')
+      .then((r) => r.json())
+      .then((episodes) => {
+        if (episodes && episodes.length > 0) {
+          const completed = episodes.find((e: any) => e.status === 'completed') || episodes[0];
+          setActiveEpisode(completed);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
   const handlePlayEpisode = (ep: PodcastEpisode) => {
     setActiveEpisode(ep);
   };
